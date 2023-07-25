@@ -2,13 +2,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 100; // начальный счет
-        int y = 1100; // сумма пополнения
-        int balans = x + y; // баланс
+        int startingScore = 100; // начальный счет
+        int replenishment = 1100; // сумма пополнения
+        int balans = startingScore + replenishment; // баланс
 
         int bonus; // бонусы
-        if (y > 1000) {
-            bonus = y / 100;
+        if (replenishment > 1000) {
+            bonus = replenishment / 100;
         } else {
             bonus = 0;
         }
